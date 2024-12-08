@@ -37,13 +37,18 @@ Este proyecto en C++ crea una simulación en perspectiva ortogonal donde se pued
 1. **Ejecutar el proyecto:**
    - Presione `Ctrl + F5` o haga clic en el botón `Start` en Visual Studio.
 
-2. **Interfaz de Usuario:**
-   - La simulación utiliza una perspectiva ortogonal.
-   - Verá la Tierra girando sobre su propio eje mientras la Luna orbita alrededor de la Tierra y frente a la cámara.
+2. **Principio Ejecución:**
+   - Se le aparecerá en Perspectiva Ortogonal, si quiere cambiar de perspectiva, pulse 'P'.
 
-3. **Controles:**
-   - Mueva la cámara con las teclas `W`, `A`, `S`, `D` (movimiento hacia adelante, atrás y laterales).
-   - Cambie el ángulo de visión con la rueda del ratón (teclas de arriba y abajo).
-   - Salga del programa pulsando `Esc` o cerrando la ventana.
+3. **Observaciones:**
+  - Una vez tenga configurada la perspectiva deseada, observará como la Tierra rota sobre si misma y sobre ti. La Luna orbitará alrededor de la Tierra.
+  - Se puede observar las correctas texturas y iluminación correcta.
+
+4. **Cámara FPS**
+   - La sensibilidad se puede ajustar, ve al apartado de sensivity y cámbialo a su gusto. Nosotros usamos 800 DPI en el mouse.
+   - Muévase con 'W' 'A' 'S' 'D', en todas las direccioenes y si quiere subir o bajar en el eje de las z, utilice teclas de arriba y abajo
+   - Si desea salir del programa, o bien pulse ESC o pulse 'O' y finalemente la cruz.
 
 ---
+
+Disfrute!
