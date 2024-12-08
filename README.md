@@ -42,7 +42,7 @@ Este proyecto en C++ crea una simulación interactiva en perspectiva ortogonal. 
    - La simulación inicia con una **perspectiva ortogonal**. Si prefieres cambiar a una perspectiva diferente, pulsa la tecla **P**.
 
 3. **Observa el movimiento:**
-   - Admira cómo la Tierra rota sobre su propio eje y cómo la Luna orbita alrededor de la Tierra, pasando frente a la cámara.
+   - Una vez tenga configurada la perspectiva deseada, observará como la Tierra rota sobre si misma y sobre ti. La Luna orbitará alrededor de la Tierra.
    - La simulación incluye texturas realistas y una iluminación precisa para una experiencia visual inmersiva.
 
 4. **Controles de la cámara:**
