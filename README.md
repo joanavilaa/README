@@ -47,12 +47,3 @@ Este proyecto en C++ crea una simulación en perspectiva ortogonal donde se pued
    - Salga del programa pulsando `Esc` o cerrando la ventana.
 
 ---
-
-## **Notas Adicionales**
-- Asegúrese de tener instaladas todas las dependencias necesarias antes de compilar.
-- Si experimenta problemas, verifique las rutas de inclusión y los directorios de las librerías en las propiedades del proyecto.
-- La simulación es educativa y está optimizada para aprender los conceptos básicos de OpenGL y visualización 3D.
-
----
-
-**Disfruta del viaje espacial virtual! 🚀**
