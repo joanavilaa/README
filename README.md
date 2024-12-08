@@ -1,13 +1,14 @@
-# Proyecto: Tierra y Luna en Movimiento
+# Proyecto: **Tierra y Luna en Movimiento**
 
-Este proyecto en C++ crea una simulación en perspectiva ortogonal donde se puede observar cómo la Tierra gira sobre sí misma y la Luna orbita alrededor de ella. El usuario puede moverse con el teclado y el ratón para explorar la simulación.
+Este proyecto en C++ crea una simulación interactiva en perspectiva ortogonal. Podrás observar cómo la Tierra gira sobre su eje mientras la Luna orbita a su alrededor. Además, disfrutarás de controles que te permitirán moverte libremente por la escena y explorarla desde diferentes ángulos.
 
 ---
 
 ## **Requisitos del Sistema**
-- Visual Studio 2022 (u otra versión compatible)
-- Microsoft Windows 10/11
-- Librerías necesarias:
+
+- **Entorno de Desarrollo:** Visual Studio 2022 (o versión compatible)
+- **Sistema Operativo:** Microsoft Windows 10/11
+- **Librerías Necesarias:**
   - OpenGL
   - GLFW
   - GLEW o GLAD
@@ -18,37 +19,44 @@ Este proyecto en C++ crea una simulación en perspectiva ortogonal donde se pued
 ## **Instrucciones de Compilación**
 
 1. **Abrir el proyecto:**
-   - Descargue y abra el proyecto en Visual Studio 2022.
+   - Descarga y abre el proyecto en Visual Studio 2022.
 
 2. **Configurar las librerías:**
-   - Asegúrese de que las librerías **OpenGL**, **GLFW**, y **GLM** estén correctamente configuradas en las propiedades del proyecto.
-   - Vaya a `Propiedades del proyecto > VC++ Directories` y agregue las rutas de las librerías y sus respectivos directorios de inclusión.
+   - Verifica que las librerías **OpenGL**, **GLFW**, y **GLM** estén correctamente configuradas.
+   - Accede a `Propiedades del proyecto > VC++ Directories` e incluye las rutas correspondientes para las librerías y sus directorios de cabeceras.
 
-3. **Seleccionar la configuración:**
-   - Seleccione el modo de compilación en `Debug` o `Release` y elija la arquitectura adecuada (`x64`).
+3. **Seleccionar configuración:**
+   - Elige el modo de compilación (`Debug` o `Release`) y ajusta la arquitectura a `x64`.
 
 4. **Compilar:**
-   - Presione `Ctrl + Shift + B` para compilar el proyecto.
+   - Pulsa `Ctrl + Shift + B` para compilar el proyecto.
 
 ---
 
 ## **Instrucciones de Ejecución**
 
-1. **Ejecutar el proyecto:**
-   - Presione `Ctrl + F5` o haga clic en el botón `Start` en Visual Studio.
+1. **Iniciar el programa:**
+   - Ejecuta el proyecto presionando `Ctrl + F5` o haciendo clic en el botón `Start` de Visual Studio.
 
-2. **Principio Ejecución:**
-   - Se le aparecerá en Perspectiva Ortogonal, si quiere cambiar de perspectiva, pulse 'P'.
+2. **Comenzar la simulación:**
+   - La simulación inicia con una **perspectiva ortogonal**. Si prefieres cambiar a una perspectiva diferente, pulsa la tecla **P**.
 
-3. **Observaciones:**
-  - Una vez tenga configurada la perspectiva deseada, observará como la Tierra rota sobre si misma y sobre ti. La Luna orbitará alrededor de la Tierra.
-  - Se puede observar las correctas texturas y iluminación correcta.
+3. **Observa el movimiento:**
+   - Admira cómo la Tierra rota sobre su propio eje y cómo la Luna orbita alrededor de la Tierra, pasando frente a la cámara.
+   - La simulación incluye texturas realistas y una iluminación precisa para una experiencia visual inmersiva.
 
-4. **Cámara FPS**
-   - La sensibilidad se puede ajustar, ve al apartado de sensivity y cámbialo a su gusto. Nosotros usamos 800 DPI en el mouse.
-   - Muévase con 'W' 'A' 'S' 'D', en todas las direccioenes y si quiere subir o bajar en el eje de las z, utilice teclas de arriba y abajo
-   - Si desea salir del programa, o bien pulse ESC o pulse 'O' y finalemente la cruz.
+4. **Controles de la cámara:**
+   - **Movimiento:** Usa las teclas `W`, `A`, `S`, `D` para desplazarte en los ejes X e Y.
+   - **Altura:** Controla el eje Z utilizando las flechas **arriba** y **abajo** del teclado.
+   - **Sensibilidad:** Ajusta la sensibilidad en el archivo de configuración (`sensitivity`) según tus preferencias. (Nota: Pruebas realizadas con 800 DPI en ratón).
+
+5. **Salir del programa:**
+   - Pulsa la tecla **ESC** o **O** y cierra la ventana haciendo clic en la **cruz**.
 
 ---
 
-Disfrute!
+## **Notas Finales**
+
+Disfruta de esta simulación y experimenta cómo interactúan los cuerpos celestes en esta escena virtual. ¡Explora, experimenta y diviértete!
+
+---
